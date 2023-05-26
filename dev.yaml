@@ -1,0 +1,14 @@
+environment: 
+  - env:
+      name: dev-rafael-example
+      vpc_id: vpc-0a7d19fdce9e2826d
+      subnet_id: subnet-0bbb7fa52abfaad00
+      security_group_id: sg-069c7a296045fa2f5
+      location: us-east-1
+
+services:
+  - service:
+      resource_name: dev-rafael-example
+      type: ec2
+      tier: t3.micro
+      ami_id: ami-053b0d53c279acc90

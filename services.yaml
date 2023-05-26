@@ -1,0 +1,6 @@
+services:
+  - name: test-ec2-dev
+    type: ec2
+    tier: t3.micro
+    ami_id: ami-053b0d53c279acc90
+    env: dev
